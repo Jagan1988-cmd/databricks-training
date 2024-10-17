@@ -1,6 +1,6 @@
 # Databricks notebook source
 # MAGIC %run /Workspace/Users/madhajagan1988@gmail.com/Day1/Includes
-
+## ETL
 # COMMAND ----------
 
 df_sales=spark.read.csv(f"{input_path}sales.csv",header=True,inferSchema=True)
